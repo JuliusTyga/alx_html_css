@@ -1,0 +1,325 @@
+/* General Reset */
+.body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+header {
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b35cff; /* Accent hover color (matches the button tone in image) */
+}
+.body{
+ background-image: url(/assets/Images/Object.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 90px;
+  font-family: Cambria;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top: 240px;
+  letter-spacing: 20px;
+  
+}
+.span{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;    /* Vertical centering */
+  height: 1rem;          /* Full height (optional, adjust as needed) */
+  text-align: center; 
+  padding: 10px;
+}
+span{
+  padding: 20px;
+  color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.button{
+   text-align: center;
+   
+}
+button{
+  border-radius: 15px;
+  padding: 9px;
+  background-color: magenta;
+  color: white;
+  border: 1px solid magenta;
+}
+h2{
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+h2 span {
+  color: magenta;
+}
+.images {
+  display: inline-flex;
+  padding: 1px 50px;
+  margin: 120px;
+}
+.one {
+  padding-right: 50px;
+  padding-left: 150px;
+}
+.two {
+  padding-left: 80px;
+  padding-right: 50px;
+}
+.three {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.four {
+  padding-left: 30px;
+}
+.one, h3 p{
+  color: white;
+  
+}
+.two, h3 p{
+  color: white;
+  
+}
+.three, h3 p{
+  color: white;
+  
+}
+.four, h3 p{
+  color: white;
+  
+}
+.section2{
+  position: absolute;
+  top: 1085px;
+  background-color: #b35cff;
+  padding: 40px 610px;
+  display: flex;
+}
+.blockquote {
+  padding-left: 50px;
+}
+.review {
+  display: flex;
+  position: relative;
+  top: 350px;
+}
+.play1 {
+  position: absolute;
+  left: 260px;
+  top: 350px;
+}
+.play2 {
+  position: absolute;
+  left: 580px;
+  top: 350px;
+}
+.play3 {
+  position: absolute;
+  left: 900px;
+  top: 350px;
+}
+.play4 {
+  position: absolute;
+  left: 1240px;
+  top: 350px;
+}
+.smallimage {
+  width: 50px;
+}
+h4 {
+  padding-left: 62px;
+  position: absolute;
+  top: 535px;
+}
+.time4 {
+  position: absolute;
+  top: 570px;
+  left: 1320px;
+}
+.time3 {
+  position: absolute;
+  top: 270px;
+  left: 1070px;
+}
+.time2 {
+  position: absolute;
+  top: 570px;
+  left: 670px;
+}
+.time3 {
+  position: absolute;
+  top: 570px;
+  left: 1000px;
+}
+.time1 {
+  position: absolute;
+  top: 570px;
+  left: 360px;
+}
+.section5 {
+  background-color: black;
+  position: absolute;
+  top: 1900px;
+  padding: 150px 390px;
+ 
+}
+.section5 h2{
+  top: 1px;
+  padding-top: 20px;
+  position: absolute;
+  padding-left: 300px;
+ 
+}
+.section5 button{
+  position: absolute;
+  top: 340px;
+  left: 700px;
+  border-radius: 15px 15px 15px 15px;
+}
+.section5 .smileimages {
+  display: flex;  
+  justify-content: right;
+}
+.smile1 h3+p {
+  color: #ffff;
+  white-space: break-word;
+  /* overflow: hidden; */
+  /* overflow-wrap: break-word; */
+  width: 200px;
+  
+}
+.smile1 h3 {
+  color: white;
+  text-align: center;
+}
+.section6{
+  border: 2px soild black;
+  position: absolute;
+  top: 2300px;
+}
+.section6 h2 {
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+footer{
+  background-color: black;
+}.footercontainer {
+  width: 100%;
+  padding: 100px 30px 20px;
+  position: relative;
+  top: 1000px;
+}
+.socialicon {
+  display: flex;
+  position: absolute;
+  top: 70px;
+  right: 100px;
+
+}
+.socialicon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 100px;
+}
+.socialicon a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.footerbutton {
+  color: white;
+  text-align: center;
+}
+.star {
+  display: flex;
+}
+.review{
+  position: relative;
+  top: 100px;
+  padding: 300px 170px;
+  gap: 40px;
+  
+}
+.word {
+  color: black;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  right: 700px;
+}
+.popular {
+  color: magenta;
+  padding-top: 1px;
+}
+.div6 {
+  display: flex;
+  column-gap: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+}
+ .text1, .text2{
+  padding-top: 30px;
+
+ }
+ .text1 {
+  padding-bottom: 60px;
+ }
+ .text3, .text4{
+  padding-top: 30px;
+
+ }
+ .text3 {
+  padding-bottom: 60px;
+ }
+ .tex1, .text2, .text3, .text4 {
+   
+ }
+ 
+
